@@ -1,7 +1,10 @@
 package com.example.tabview
 
+import android.graphics.Color
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.viewpager.widget.ViewPager
@@ -37,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         //SET CURRENT TAB
         view.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabs))
         tabs.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
+            @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
             override fun onTabSelected(tab: TabLayout.Tab) {
                 view.currentItem = tab.position
             }

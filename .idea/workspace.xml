@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tabview/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tabview/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,13 +131,13 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="335" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1597709891315" />
-    <state x="130" y="123" width="1210" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597709459621">
+    <state x="130" y="123" width="1210" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597734578876">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="130" y="123" width="1210" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1597709459621" />
-    <state x="405" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1597711366387">
+    <state x="130" y="123" width="1210" height="677" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1597734578876" />
+    <state x="405" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1597734546895">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="405" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597711366387" />
+    <state x="405" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597734546895" />
   </component>
 </project>
