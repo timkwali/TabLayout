@@ -25,11 +25,16 @@ class MainActivity : AppCompatActivity() {
         tabs.addTab(tabs.newTab().setText("Search"))
         tabs.tabGravity = TabLayout.GRAVITY_FILL
 
+        //FILL TAB WITH ICONS
+        tabs.getTabAt(0)?.setIcon(R.drawable.ic_home)
+        tabs.getTabAt(1)?.setIcon(R.drawable.ic_favorites)
+        tabs.getTabAt(2)?.setIcon(R.drawable.ic_search)
+
         //GET THE ADAPTER
         val adapter = TabAdapter(this, supportFragmentManager, tabs.tabCount)
         view.adapter = adapter
 
-        //
+        //SET CURRENT TAB
         view.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabs))
         tabs.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabSelected(tab: TabLayout.Tab) {
